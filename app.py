@@ -14,4 +14,4 @@ def index():
     lista = ['https://www.youtube.com/embed/9y9HQu25k6c']
     return render_template('index.html', nome = nome, lista = lista)
 
-app.run(host='0.0.0.0', port=5000)
+#app.run(host='0.0.0.0', port=5000)
